@@ -1,0 +1,57 @@
+/* font */
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap);
+
+
+body {
+    margin: 0 auto;
+    font-family: 'Montserrat';
+}
+
+section.top-page {
+    background: url('../images/bg.jpg') no-repeat;
+    background-size: cover;
+    height: 80vh;
+    padding: 25px;
+}
+
+section.top-page header {
+    display: flex;
+    align-items: center;
+}
+
+section.top-page header img {
+    width: 150px;
+}
+
+/* landing page */
+
+.big-title {
+    color: #FFF;
+    font-size: 80px;
+    font-family: 'Abril FatFace', cursive;
+    font-weight: 100;
+    padding: 20px 50px;
+}
+
+.scroll-down {
+    color: #FFF;
+    text-decoration: none;
+    position: absolute;
+    bottom: 160px;
+}
+
+/* menu de navigation */
+
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+
+    width: 400px;
+    margin-left: 30px;
+}
+
+nav.nav li {
+    color: #FFF;
+}
