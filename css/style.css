@@ -9,7 +9,7 @@ body {
 }
 
 section.top-page {
-    background: url('../images/bg.jpg') no-repeat;
+    background: url('../images/background.jpg') no-repeat;
     background-size: cover;
     height: 80vh;
     padding: 25px;
@@ -80,4 +80,82 @@ nav.nav li {
 .delivery-icon {
     font-size: 50px;
     color: #ADD981;
+}
+
+
+/* Section Bests Items */
+
+.section-title {
+    font-size: 50px;
+    font-family: 'Abril-FatFace', cursive;
+    font-weight: 100;
+    position: relative;
+}
+
+.section-title::before {
+    content: '';
+    position: absolute;
+    background: #ADD981;
+    width: 50px;
+    height: 7px;
+    bottom: 0;
+}
+
+.bests-items {
+    margin: 100px;
+}
+
+.bests-plants {
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.no-grid {
+    min-width: 350px;
+    height: 500px;
+    flex: 1;
+}
+
+.plant1 {
+    background: url('../images/best-sellers/1.jpg');
+}
+
+.plant2 {
+    background: url('../images/best-sellers/2.jpg');
+}
+
+.plant3 {
+    background: url('../images/best-sellers/3.jpg');
+}
+
+.plant4 {
+    background: url('../images/best-sellers/4.jpg');
+}
+
+.plant-box {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+
+.plant-details {
+    background: #FFFFFFDF;
+    padding: 5px 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.plant-name {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 3px;
+}
+
+.plant-price {
+    color: #ADD981;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 3px;
 }
