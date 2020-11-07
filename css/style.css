@@ -1,4 +1,4 @@
-/* font */
+/* Font */
 @import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap);
 
@@ -24,7 +24,7 @@ section.top-page header img {
     width: 150px;
 }
 
-/* landing page */
+/* Landing page */
 
 .big-title {
     color: #FFF;
@@ -41,7 +41,7 @@ section.top-page header img {
     bottom: 160px;
 }
 
-/* menu de navigation */
+/* Menu de navigation */
 
 nav.nav {
     display: flex;
@@ -54,4 +54,30 @@ nav.nav {
 
 nav.nav li {
     color: #FFF;
+}
+
+
+/* Services */
+
+.services {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+
+.service-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.service-details {
+    font-weight: 600;
+    width: 200px;
+    text-align: center;
+}
+
+.delivery-icon {
+    font-size: 50px;
+    color: #ADD981;
 }
