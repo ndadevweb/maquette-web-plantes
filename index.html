@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NatureEmoi - Ventes de plantes en ligne</title>
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon" />
     <link rel="stylesheet" href="./css/style.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/js/all.min.js"></script>
 </head>
@@ -13,19 +14,19 @@
         <header>
             <img src="./images/logo.png" alt="Logo">
             <nav class="nav">
-                <li>Accueil</li>
-                <li>Nos meilleurs ventes</li>
-                <li>Nos plantes</li>
+                <li><a href="./index.html">Accueil</a></li>
+                <li><a href="#bests-items">Nos meilleurs ventes</a></li>
+                <li><a href="#all-plants">Nos plantes</a></li>
             </nav>
         </header>
 
         <div class="landing-page">
             <h1 class="big-title">NatureEmoi, meilleur que le chocolat.</h1>
-            <a href="" class="scroll-down">Scroll <i class="fas fa-angle-down"></i></a>
+            <a href="#services" class="scroll-down">Scroll <i class="fas fa-angle-down"></i></a>
         </div>
     </section>
 
-    <section class="services">
+    <section class="services" id="services">
         <div class="service-item">
             <i class="fas fa-store delivery-icon"></i>
             <p class="service-details">Nos magasins à votre service</p>
@@ -40,81 +41,252 @@
         </div>
     </section>
 
-    <section class="bests-items">
+    <section class="bests-items" id="bests-items">
         <h2 class="section-title">Nos meilleures ventes</h2>
         <div class="bests-plants">
-            <a class="plant-box plant1 no-grid">
-                <div class="plant-details">
-                    <p class="plant-name">Plante</p>
-                    <p class="plant-price">29,99€</p>
+            <div class="plant-box no-grid">
+                <figure>
+                    <img src="./images/best-sellers/1.jpg" alt="Plante 1" />
+                    <figcaption class="plant-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Molestias rem, provident necessitatibus ad vel repellat voluptates aut voluptate earum et tempora tempore accusamus sunt nihil quam sit facilis at in.
+
+                        Facilis, a autem ab, provident nobis facere, fuga rerum earum numquam quae exercitationem asperiores?
+
+                        Suscipit ipsum praesentium ex perferendis eveniet temporibus quidem magni sunt fugiat culpa aut, consectetur quia ratione quod sequi voluptates doloremque dolore corporis aliquid animi eligendi aliquam aperiam enim.
+                    </figcaption>
+                </figure>
+                <div class="plant-informations">
+                    <div class="plant-details">
+                        <p class="plant-name">Plante 1</p>
+                        <p class="plant-price">29,99€</p>
+                    </div>
+                    <div class="plant-cta">
+                       <a href="#" class="btn-primary">En savoir plus</a>
+                    </div>
                 </div>
-            </a>
-            <a class="plant-box plant2 no-grid">
-                <div class="plant-details">
-                    <p class="plant-name">Plante</p>
-                    <p class="plant-price">19,99€</p>
+            </div>
+            <div class="plant-box no-grid">
+                <figure>
+                    <img src="./images/best-sellers/2.jpg" alt="Plante 2" />
+                    <figcaption class="plant-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Molestias rem, provident necessitatibus ad vel repellat voluptates aut voluptate earum et tempora tempore accusamus sunt nihil quam sit facilis at in.
+
+                        Facilis, a autem ab, provident nobis facere, fuga rerum earum numquam quae exercitationem asperiores?
+
+                        Suscipit ipsum praesentium ex perferendis eveniet temporibus quidem magni sunt fugiat culpa aut, consectetur quia ratione quod sequi voluptates doloremque dolore corporis aliquid animi eligendi aliquam aperiam enim.
+                    </figcaption>
+                </figure>
+                <div class="plant-informations">
+                    <div class="plant-details">
+                        <p class="plant-name">Plante 2</p>
+                        <p class="plant-price">19,99€</p>
+                    </div>
+                    <div class="plant-cta">
+                        <a href="#" class="btn-primary">En savoir plus</a>
+                     </div>
                 </div>
-            </a>
-            <a class="plant-box plant3 no-grid">
-                <div class="plant-details">
-                    <p class="plant-name">Plante</p>
-                    <p class="plant-price">29,99€</p>
+            </div>
+            <div class="plant-box no-grid">
+                <figure>
+                    <img src="./images/best-sellers/3.jpg" alt="Plante 3" />
+                    <figcaption class="plant-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Molestias rem, provident necessitatibus ad vel repellat voluptates aut voluptate earum et tempora tempore accusamus sunt nihil quam sit facilis at in.
+
+                        Facilis, a autem ab, provident nobis facere, fuga rerum earum numquam quae exercitationem asperiores?
+
+                        Suscipit ipsum praesentium ex perferendis eveniet temporibus quidem magni sunt fugiat culpa aut, consectetur quia ratione quod sequi voluptates doloremque dolore corporis aliquid animi eligendi aliquam aperiam enim.
+                    </figcaption>
+                </figure>
+                <div class="plant-informations">
+                    <div class="plant-details">
+                        <p class="plant-name">Plante 3</p>
+                        <p class="plant-price">29,99€</p>
+                    </div>
+                    <div class="plant-cta">
+                        <a href="#" class="btn-primary">En savoir plus</a>
+                     </div>
                 </div>
-            </a>
-            <a class="plant-box plant4 no-grid">
-                <div class="plant-details">
-                    <p class="plant-name">Plante</p>
-                    <p class="plant-price">34,99€</p>
+            </div>
+            <div class="plant-box plant4 no-grid">
+                <figure>
+                    <img src="./images/best-sellers/4.jpg" alt="Plante 4" />
+                    <figcaption class="plant-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Molestias rem, provident necessitatibus ad vel repellat voluptates aut voluptate earum et tempora tempore accusamus sunt nihil quam sit facilis at in.
+
+                        Facilis, a autem ab, provident nobis facere, fuga rerum earum numquam quae exercitationem asperiores?
+
+                        Suscipit ipsum praesentium ex perferendis eveniet temporibus quidem magni sunt fugiat culpa aut, consectetur quia ratione quod sequi voluptates doloremque dolore corporis aliquid animi eligendi aliquam aperiam enim.
+                    </figcaption>
+                </figure>
+                <div class="plant-informations">
+                    <div class="plant-details">
+                        <p class="plant-name">Plante 4</p>
+                        <p class="plant-price">34,99€</p>
+                    </div>
+                    <div class="plant-cta">
+                        <a href="#" class="btn-primary">En savoir plus</a>
+                     </div>
                 </div>
-            </a>
+            </div>
         </div>
     </section>
 
-    <section class="all-plants">
+    <section class="all-plants" id="all-plants">
         <h2 class="section-title">Nos plantes</h2>
         <div class="plant-grid">
-            <a class="plant-box plant-grid1">
-                <div class="plant-details">
-                    <p class="plant-name">Plante</p>
-                    <p class="plant-price">22,99€</p>
+            <div class="plant-box plant-grid1">
+                <figure>
+                    <img src="./images/plants/1.jpg" alt="Plante 1" />
+                    <figcaption class="plant-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Molestias rem, provident necessitatibus ad vel repellat voluptates aut voluptate earum et tempora tempore accusamus sunt nihil quam sit facilis at in.
+
+                        Facilis, a autem ab, provident nobis facere, fuga rerum earum numquam quae exercitationem asperiores?
+
+                        Suscipit ipsum praesentium ex perferendis eveniet temporibus quidem magni sunt fugiat culpa aut, consectetur quia ratione quod sequi voluptates doloremque dolore corporis aliquid animi eligendi aliquam aperiam enim.
+                    </figcaption>
+                </figure>
+
+                <div class="plant-informations">
+                    <div class="plant-details">
+                        <p class="plant-name">Plante 1</p>
+                        <p class="plant-price">22,99€</p>
+                    </div>
+                    <div class="plant-cta">
+                        <a href="#" class="btn-primary">En savoir plus</a>
+                     </div>
                 </div>
-            </a>
-            <a class="plant-box plant-grid2">
-                <div class="plant-details">
-                    <p class="plant-name">Plante</p>
-                    <p class="plant-price">14,99€</p>
+            </div>
+            <div class="plant-box plant-grid2">
+                <figure>
+                    <img src="./images/plants/2.jpg" alt="Plante 2" />
+                    <figcaption class="plant-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Voluptatum inventore qui asperiores officia ullam provident similique in nisi.
+
+                        Rerum nostrum fuga fugit itaque maxime animi. Quaerat optio hic earum! Corporis aspernatur fuga, beatae quibusdam dolore eveniet qui corrupti commodi fugit?</figcaption>
+                </figure>
+
+                <div class="plant-informations">
+                    <div class="plant-details">
+                        <p class="plant-name">Plante 2</p>
+                        <p class="plant-price">14,99€</p>
+                    </div>
+                    <div class="plant-cta">
+                        <a href="#" class="btn-primary">En savoir plus</a>
+                     </div>
                 </div>
-            </a>
-            <a class="plant-box plant-grid3">
-                <div class="plant-details">
-                    <p class="plant-name">Plante</p>
-                    <p class="plant-price">49,99€</p>
+            </div>
+            <div class="plant-box plant-grid3">
+                <figure>
+                    <img src="./images/plants/3.jpg" alt="Plante 3" />
+                    <figcaption class="plant-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Molestias rem, provident necessitatibus ad vel repellat voluptates aut voluptate earum et tempora tempore accusamus sunt nihil quam sit facilis at in.
+
+                        Facilis, a autem ab, provident nobis facere, fuga rerum earum numquam quae exercitationem asperiores?
+
+                        Suscipit ipsum praesentium ex perferendis eveniet temporibus quidem magni sunt fugiat culpa aut, consectetur quia ratione quod sequi voluptates doloremque dolore corporis aliquid animi eligendi aliquam aperiam enim.
+                    </figcaption>
+                </figure>
+
+                <div class="plant-informations">
+                    <div class="plant-details">
+                        <p class="plant-name">Plante 3</p>
+                        <p class="plant-price">49,99€</p>
+                    </div>
+                    <div class="plant-cta">
+                        <a href="#" class="btn-primary">En savoir plus</a>
+                     </div>
                 </div>
-            </a>
-            <a class="plant-box plant-grid4">
-                <div class="plant-details">
-                    <p class="plant-name">Plante</p>
-                    <p class="plant-price">44,99€</p>
+            </div>
+            <div class="plant-box plant-grid4">
+                <figure>
+                    <img src="./images/plants/4.jpg" alt="Plante 4" />
+                    <figcaption class="plant-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Molestias rem, provident necessitatibus ad vel repellat voluptates aut voluptate earum et tempora tempore accusamus sunt nihil quam sit facilis at in.
+
+                        Facilis, a autem ab, provident nobis facere, fuga rerum earum numquam quae exercitationem asperiores?
+
+                        Suscipit ipsum praesentium ex perferendis eveniet temporibus quidem magni sunt fugiat culpa aut, consectetur quia ratione quod sequi voluptates doloremque dolore corporis aliquid animi eligendi aliquam aperiam enim.
+                    </figcaption>
+                </figure>
+
+                <div class="plant-informations">
+                    <div class="plant-details">
+                        <p class="plant-name">Plante 4</p>
+                        <p class="plant-price">44,99€</p>
+                    </div>
+                    <div class="plant-cta">
+                        <a href="#" class="btn-primary">En savoir plus</a>
+                     </div>
                 </div>
-            </a>
-            <a class="plant-box plant-grid5">
-                <div class="plant-details">
-                    <p class="plant-name">Plante</p>
-                    <p class="plant-price">22,99€</p>
+            </div>
+            <div class="plant-box plant-grid5">
+                <figure>
+                    <img src="./images/plants/5.jpg" alt="Plante 5" />
+                    <figcaption class="plant-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Molestias rem, provident necessitatibus ad vel repellat voluptates aut voluptate earum et tempora tempore accusamus sunt nihil quam sit facilis at in.
+
+                        Facilis, a autem ab, provident nobis facere, fuga rerum earum numquam quae exercitationem asperiores?
+
+                        Suscipit ipsum praesentium ex perferendis eveniet temporibus quidem magni sunt fugiat culpa aut, consectetur quia ratione quod sequi voluptates doloremque dolore corporis aliquid animi eligendi aliquam aperiam enim.
+                    </figcaption>
+                </figure>
+
+                <div class="plant-informations">
+                    <div class="plant-details">
+                        <p class="plant-name">Plante 5</p>
+                        <p class="plant-price">22,99€</p>
+                    </div>
+                    <div class="plant-cta">
+                        <a href="#" class="btn-primary">En savoir plus</a>
+                     </div>
                 </div>
-            </a>
-            <a class="plant-box plant-grid6">
-                <div class="plant-details">
-                    <p class="plant-name">Plante</p>
-                    <p class="plant-price">29,99€</p>
+            </div>
+            <div class="plant-box plant-grid6">
+                <figure>
+                    <img src="./images/plants/6.jpg" alt="Plante 6" />
+                    <figcaption class="plant-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Molestias rem, provident necessitatibus ad vel repellat voluptates aut voluptate earum et tempora tempore accusamus sunt nihil quam sit facilis at in.
+
+                        Facilis, a autem ab, provident nobis facere, fuga rerum earum numquam quae exercitationem asperiores?
+
+                        Suscipit ipsum praesentium ex perferendis eveniet temporibus quidem magni sunt fugiat culpa aut, consectetur quia ratione quod sequi voluptates doloremque dolore corporis aliquid animi eligendi aliquam aperiam enim.
+                    </figcaption>
+                </figure>
+
+                <div class="plant-informations">
+                    <div class="plant-details">
+                        <p class="plant-name">Plante 6</p>
+                        <p class="plant-price">29,99€</p>
+                    </div>
+                    <div class="plant-cta">
+                        <a href="#" class="btn-primary">En savoir plus</a>
+                     </div>
                 </div>
-            </a>
+            </div>
         </div>
     </section>
 
-    <footer>
+    <footer class="main">
         <p class="copyright">&copy; 2020 - Nature Emoi</p>
         <a href="" class="cgv">Conditions générales de ventes</a>
     </footer>
+
+    <div class="popin" id="popin">
+        <div class="popin-shadow-layer">
+            <div class="popin-content">
+                <header class="popin-header">
+                    <h3></h3>
+                </header>
+
+                <div class="popin-details"></div>
+
+                <footer class="popin-footer">
+                    <button type="button" class="btn-primary popin-close">Fermer</button>
+                </footer>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/index.js"></script>
 </body>
 </html>
