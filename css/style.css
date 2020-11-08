@@ -208,3 +208,17 @@ nav.nav li {
     background-size: cover;
     background-position: center;
 }
+
+/* Pied de page */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 100px;
+}
+
+footer a.cgv {
+    text-decoration: none;
+    color: #000;
+}
