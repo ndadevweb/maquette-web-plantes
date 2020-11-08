@@ -133,12 +133,6 @@ nav.nav li {
     background: url('../images/best-sellers/4.jpg');
 }
 
-.plant-box {
-    position: relative;
-    background-size: cover;
-    background-position: center;
-}
-
 .plant-details {
     background: #FFFFFFDF;
     padding: 5px 20px;
@@ -158,4 +152,59 @@ nav.nav li {
     font-size: 14px;
     font-weight: 800;
     line-height: 3px;
+}
+
+
+/* Section all plants */
+
+.all-plants {
+    margin: 100px;
+}
+
+.plant-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 400px);
+}
+
+.plant-grid1 {
+    background: url('../images/plants/1.jpg') no-repeat;
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+}
+
+.plant-grid2 {
+    background: url('../images/plants/2.jpg') no-repeat;
+    grid-column: 3 / 5;
+}
+
+.plant-grid3 {
+    background: url('../images/plants/3.jpg') no-repeat;
+    grid-column: 3 / 5;
+}
+
+.plant-grid4 {
+    background: url('../images/plants/4.jpg') no-repeat;
+    grid-column: 1;
+    grid-row: 3 / 5;
+}
+
+.plant-grid5 {
+    background: url('../images/plants/5.jpg') no-repeat;
+    grid-column: 2 / 4;
+    grid-row: 3 / 5;
+}
+
+.plant-grid6 {
+    background: url('../images/plants/6.jpg') no-repeat;
+    grid-column: 3 / 5;
+    grid-column: 4;
+    grid-row: 3 / 5;
+}
+
+/* Doit toujours etre apres les class definissant chaque item de plante */
+.plant-box {
+    position: relative;
+    background-size: cover;
+    background-position: center;
 }
